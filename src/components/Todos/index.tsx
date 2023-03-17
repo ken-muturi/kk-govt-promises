@@ -35,7 +35,7 @@ const TodoApp = () => {
       p={2}
     >
       <Header />
-      <Box h="40rem" overflowY="auto" p={2}>
+      <Box h="40rem" overflowY="auto" p={2} pt={0}>
         {activeTodo ? (
           <TodoDetails activeTodo={activeTodo} setActiveTodo={setActiveTodo} />
         ) : (

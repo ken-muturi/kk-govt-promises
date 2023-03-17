@@ -47,7 +47,7 @@ const TodoList = ({ todos, setActiveTodo }: TodoListProps) => {
                 <HStack w="full" mt={2} spacing={2}>
                   <BsClockHistory />
                   <Text style={{ fontSize: "10px" }} color="muted">
-                    {dateOfpromise}
+                    Date of Promise: {dateOfpromise}
                   </Text>
                 </HStack>
               </Stack>
